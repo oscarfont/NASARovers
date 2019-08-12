@@ -4,7 +4,7 @@ Language: Python.
 IDE: Visual Studio Code.  
 Objective: It is the solution proposed to a company's selection process coding problem. The problem is described below.  
 
-# Description
+## Description
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars. This plateau, which
 is curiously rectangular, must be navigated by the rovers so that their on-board cameras can
 get a complete view of the surrounding terrain to send back to Earth. A roverâ€™s position and
@@ -28,7 +28,8 @@ Each rover will be finished sequentially, which means that the second rover wonâ
 move until the first one has finished moving.    
 
 OUTPUT  
-The output for each rover should be its final co-ordinates and heading.  
+The output for each rover should be its final co-ordinates and heading.
+  
 INPUT AND OUTPUT  
 Test Input:  
 5 5  
