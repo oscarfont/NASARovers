@@ -1,8 +1,8 @@
 # NASARovers
-Command line Python application that simulates the control of NASA Robotic Rovers on Mars. 
-It is the solution proposed to a company's selection process problem. The problem is descibed below.
-Language: Python.
-IDE: Visual Studio Code.
+Command line Python application that simulates the control of NASA Robotic Rovers on Mars.  
+Language: Python.  
+IDE: Visual Studio Code.  
+Objective: It is the solution proposed to a company's selection process coding problem. The problem is described below.  
 
 # Description
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars. This plateau, which
@@ -16,7 +16,7 @@ letters are ‘L’, ‘R’ and ‘M’. ‘L’ and ‘R’ makes the rover sp
 without moving from its current spot. ‘M’ means move forward one grid point, and maintain
 the same heading. Assume that the square directly North from (x, y) is (x, y+1).  
 
-INPUT:
+INPUT:  
 The first line of input is the upper-right coordinates of the plateau, the lower- left coordinates
 are assumed to be 0,0.
 The rest of the input is information pertaining to the rovers that have been deployed. Each
@@ -25,17 +25,17 @@ series of instructions telling the rover how to explore the plateau.
 The position is made up of two integers and a letter separated by spaces, corresponding to the
 x and y co-ordinates and the rover’s orientation.
 Each rover will be finished sequentially, which means that the second rover won’t start to
-move until the first one has finished moving.  
+move until the first one has finished moving.    
 
-OUTPUT
-The output for each rover should be its final co-ordinates and heading.
-INPUT AND OUTPUT
-Test Input:
-5 5
-1 2 N
-LMLMLMLMM
-3 3 E
-MMRMMRMRRM
-Expected Output:
-1 3 N
-5 1 E
+OUTPUT  
+The output for each rover should be its final co-ordinates and heading.  
+INPUT AND OUTPUT  
+Test Input:  
+5 5  
+1 2 N  
+LMLMLMLMM  
+3 3 E  
+MMRMMRMRRM  
+Expected Output:  
+1 3 N  
+5 1 E  
